@@ -13,6 +13,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		5882972C2B54F79E0077B5CA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5882972B2B54F79E0077B5CA /* GoogleService-Info.plist */; };
+		58CB5F582B58E5760009E76B /* PottaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58CB5F572B58E5760009E76B /* PottaOne-Regular.ttf */; };
+		58CB5F5A2B58E5880009E76B /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58CB5F592B58E5880009E76B /* Montserrat-ExtraBold.ttf */; };
+		58CB5F5E2B58E5B70009E76B /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58CB5F5D2B58E5B70009E76B /* Montserrat-MediumItalic.ttf */; };
+		58CB5F602B58E5C40009E76B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58CB5F5F2B58E5C40009E76B /* Poppins-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-hygrowghios-hygrowghiosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-hygrowghios-hygrowghiosTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -31,7 +35,7 @@
 		00E356EE1AD99517003FC87E /* hygrowghiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hygrowghiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* hygrowghiosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hygrowghiosTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* hygrowghios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hygrowghios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* hygrowghios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = hygrowghios.app; path = Hygrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = hygrowghios/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = hygrowghios/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = hygrowghios/Images.xcassets; sourceTree = "<group>"; };
@@ -40,7 +44,12 @@
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-hygrowghios-hygrowghiosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hygrowghios-hygrowghiosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-hygrowghios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hygrowghios.debug.xcconfig"; path = "Target Support Files/Pods-hygrowghios/Pods-hygrowghios.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-hygrowghios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hygrowghios.release.xcconfig"; path = "Target Support Files/Pods-hygrowghios/Pods-hygrowghios.release.xcconfig"; sourceTree = "<group>"; };
+		586F285B2B590E6700EE5DCB /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		5882972B2B54F79E0077B5CA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		58CB5F572B58E5760009E76B /* PottaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PottaOne-Regular.ttf"; path = "../assets/fonts/PottaOne-Regular.ttf"; sourceTree = "<group>"; };
+		58CB5F592B58E5880009E76B /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		58CB5F5D2B58E5B70009E76B /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-MediumItalic.ttf"; path = "../assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		58CB5F5F2B58E5C40009E76B /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-hygrowghios-hygrowghiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hygrowghios-hygrowghiosTests.debug.xcconfig"; path = "Target Support Files/Pods-hygrowghios-hygrowghiosTests/Pods-hygrowghios-hygrowghiosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-hygrowghios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hygrowghios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = hygrowghios/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -88,6 +97,7 @@
 		13B07FAE1A68108700A75B9A /* hygrowghios */ = {
 			isa = PBXGroup;
 			children = (
+				58CB5F542B58E42D0009E76B /* Fonts */,
 				5882972B2B54F79E0077B5CA /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
@@ -107,6 +117,18 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-hygrowghios-hygrowghiosTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58CB5F542B58E42D0009E76B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				586F285B2B590E6700EE5DCB /* Feather.ttf */,
+				58CB5F5F2B58E5C40009E76B /* Poppins-Regular.ttf */,
+				58CB5F5D2B58E5B70009E76B /* Montserrat-MediumItalic.ttf */,
+				58CB5F592B58E5880009E76B /* Montserrat-ExtraBold.ttf */,
+				58CB5F572B58E5760009E76B /* PottaOne-Regular.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -245,8 +267,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58CB5F5A2B58E5880009E76B /* Montserrat-ExtraBold.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				58CB5F602B58E5C40009E76B /* Poppins-Regular.ttf in Resources */,
+				58CB5F582B58E5760009E76B /* PottaOne-Regular.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				58CB5F5E2B58E5B70009E76B /* Montserrat-MediumItalic.ttf in Resources */,
 				5882972C2B54F79E0077B5CA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
